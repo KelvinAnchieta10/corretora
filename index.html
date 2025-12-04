@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LK Broker's Consultoria de Seguros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <div class="container header-content">
+            <div class="logo">
+                <!-- Trocar pela imagem da logo se quiser -->
+                <img src="img/LK.jpg" alt="LK Broker's" class="logo-img">
+                <div class="logo-text">
+                    <strong>LK Broker's</strong>
+                    <span>Consultoria de Seguros</span>
+                </div>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#como-funciona">Como funciona</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#contato" class="btn-nav">Fale com um consultor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Consultoria em benefícios de Saúde, Odonto e Vida para sua empresa</h1>
+                    <p>
+                        A LK Broker's oferece soluções completas e personalizadas em planos de saúde,
+                        odontológicos e seguros de vida para empresas, famílias e adesão.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="https://wa.me/5511968606841" target="_blank">
+                            Quero falar com um consultor
+                        </a>
+                        <a class="btn-secondary" href="#solucoes">
+                            Ver soluções
+                        </a>
+                    </div>
+                    <ul class="hero-highlights">
+                        <li>📊 Análise detalhada do atual cenário de benefícios</li>
+                        <li>💼 Foco em redução de custos com manutenção da qualidade</li>
+                        <li>🤝 Acompanhamento próximo no dia a dia da operação</li>
+                    </ul>
+                </div>
+
+                <div class="hero-card">
+                    <h2>Receba uma análise gratuita</h2>
+                    <p>Preencha os dados e um consultor entrará em contato.</p>
+                    <form class="hero-form">
+                        <input type="text" placeholder="Nome completo" required>
+                        <input type="text" placeholder="Empresa" required>
+                        <input type="tel" placeholder="Telefone / WhatsApp" required>
+                        <input type="number" placeholder="Quantidade de vidas" min="1">
+                        <button type="submit" class="btn-primary">Quero uma proposta</button>
+                        <small>Responderemos em até 1 dia útil.</small>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section section-light">
+            <div class="container two-columns about-grid">
+                <div>
+                    <h2>Sobre a LK Broker's</h2>
+                    <p>
+                        Somos uma consultoria especializada em benefícios corporativos, com foco em
+                        <strong>planos de saúde, odontológicos e seguros de vida</strong>.
+                    </p>
+                    <p>
+                        Atuamos com empresas de diversos portes, além de soluções para
+                        <strong>famílias e adesão</strong>, sempre buscando o equilíbrio entre
+                        custo e qualidade de atendimento.
+                    </p>
+                    <p>
+                        Nosso papel é representar o cliente na negociação com as operadoras,
+                        garantindo condições competitivas, suporte próximo e transparência em todas
+                        as etapas.
+                    </p>
+
+                    <div class="about-box">
+                        <h3>Segmentos atendidos</h3>
+                        <ul class="check-list">
+                            <li>Empresas (PME, corporativo e grandes contas)</li>
+                            <li>Famílias e planos coletivos por adesão</li>
+                            <li>Profissionais liberais e autônomos</li>
+                        </ul>
+                        <h3>Benefícios trabalhados</h3>
+                        <ul class="check-list">
+                            <li>Plano de Saúde</li>
+                            <li>Plano Odontológico</li>
+                            <li>Seguro de Vida em Grupo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="about-image-wrapper">
+                    <img src="./img/sobre.jpg" alt="Consultores da LK Broker's em reunião com cliente"
+                        class="about-image">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SOLUÇÕES -->
+        <section class="section banner-beneficios">
+            <div class="container banner-content">
+                <p class="banner-kicker">Benefícios sob medida</p>
+                <h2>Estruturamos o pacote ideal para o perfil da sua empresa</h2>
+                <p>
+                    Analisamos custos, rede de atendimento, sinistralidade e expectativas dos colaboradores
+                    para propor a melhor combinação entre saúde, odonto e vida.
+                </p>
+                <a href="#contato" class="btn-primary banner-btn">Quero revisar meus benefícios</a>
+            </div>
+        </section>
+
+        <section id="solucoes" class="section">
+            <div class="container">
+                <h2>Soluções em benefícios</h2>
+                <p class="section-subtitle">
+                    Consultoria completa para estruturar, revisar ou migrar seus benefícios.
+                </p>
+
+                <div class="cards-grid">
+                    <article class="card">
+                        <h3>Planos de Saúde Empresariais</h3>
+                        <p>
+                            Analisamos o perfil dos colaboradores, sinistralidade e rede de atendimento
+                            para indicar as melhores opções do mercado.
+                        </p>
+                        <ul class="card-list">
+                            <li>Estudos comparativos entre operadoras</li>
+                            <li>Revisão anual de reajustes</li>
+                            <li>Suporte em inclusões, exclusões e movimentações</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Planos Odontológicos</h3>
+                        <p>
+                            Estruturação de plano odontológico para complementar o pacote de benefícios
+                            com excelente custo-benefício.
+                        </p>
+                        <ul class="card-list">
+                            <li>Redução de custo com saúde bucal preventiva</li>
+                            <li>Rede credenciada ampla</li>
+                            <li>Opções empresariais e por adesão</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Seguro de Vida em Grupo</h3>
+                        <p>
+                            Proteção financeira para colaboradores e familiares, alinhada às políticas
+                            internas de RH e convenções coletivas.
+                        </p>
+                        <ul class="card-list">
+                            <li>Definição de coberturas e capitais segurados</li>
+                            <li>Auxílio em sinistros e processos</li>
+                            <li>Programas de conscientização e comunicação</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Benefícios para Famílias e Adesão</h3>
+                        <p>
+                            Soluções sob medida para famílias, profissionais liberais e entidades de
+                            classe que buscam segurança e previsibilidade.
+                        </p>
+                        <ul class="card-list">
+                            <li>Consultoria individualizada</li>
+                            <li>Opções de diferentes faixas etárias</li>
+                            <li>Suporte no pós-venda e uso do plano</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMO FUNCIONA -->
+        <section id="como-funciona" class="section section-light">
+            <div class="container">
+                <h2>Como funciona a consultoria</h2>
+                <p class="section-subtitle">
+                    Processo simples, transparente e focado no resultado para o cliente.
+                </p>
+
+                <div class="steps-grid">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <h3>Diagnóstico</h3>
+                        <p>
+                            Entendemos o cenário atual de benefícios, perfil dos beneficiários,
+                            sinistralidade e expectativas da empresa.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <h3>Estudo & Proposta</h3>
+                        <p>
+                            Elaboramos comparativos entre operadoras, planos e redes, destacando
+                            custos, coberturas e vantagens.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <h3>Implantação</h3>
+                        <p>
+                            Acompanhamos todo o processo de contratação, implantação e comunicação
+                            com os colaboradores.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <h3>Acompanhamento</h3>
+                        <p>
+                            Suporte contínuo no dia a dia, renovações, movimentações e ajustes
+                            necessários ao longo do contrato.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DIFERENCIAIS -->
+        <section id="diferenciais" class="section">
+            <div class="container two-columns">
+                <div>
+                    <h2>Por que contar com a LK Broker's?</h2>
+                    <ul class="check-list">
+                        <li>Atuação focada em planos de saúde, odontológicos e vida.</li>
+                        <li>Negociação direta com as principais operadoras do mercado.</li>
+                        <li>Acompanhamento próximo de RH e gestores durante todo o contrato.</li>
+                        <li>Suporte estratégico em renovações e revisões de reajuste.</li>
+                        <li>Atendimento consultivo, transparente e humanizado.</li>
+                    </ul>
+                </div>
+                <div class="highlight-box">
+                    <h3>Mais do que corretora, uma parceira de benefícios</h3>
+                    <p>
+                        Nosso objetivo é apoiar a empresa na construção de um pacote de benefícios
+                        competitivo, sustentável e alinhado à cultura da organização.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section section-light">
+            <div class="container two-columns">
+                <div>
+                    <h2>Fale com um consultor</h2>
+                    <p>
+                        Preencha o formulário ou, se preferir, clique no botão abaixo para falar
+                        diretamente pelo WhatsApp.
+                    </p>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nome completo" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="tel" placeholder="Telefone / WhatsApp" required>
+                        <input type="text" placeholder="Empresa">
+                        <textarea rows="4" placeholder="Conte um pouco da sua necessidade"></textarea>
+                        <button type="submit" class="btn-primary">Enviar mensagem</button>
+                    </form>
+                </div>
+                <div class="contact-box">
+                    <h3>Atendimento</h3>
+                    <p><strong>LK Broker's Consultoria de Seguros</strong></p>
+                    <p>São Paulo - SP</p>
+                    <p>Telefone: (11) 3326-7027</p>
+                    <a class="btn-secondary full" href="https://wa.me/5511999999999" target="_blank">
+                        Conversar pelo WhatsApp
+                    </a>
+                    <p class="contact-note">
+                        Horário de atendimento comercial.<br>
+                        Resposta rápida via WhatsApp.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="anoAtual"></span> LK Broker's Consultoria de Seguros. Todos os direitos reservados.</p>
+            <p class="footer-small">Informações meramente ilustrativas. Consulte condições comerciais.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
