@@ -629,13 +629,15 @@ img {
 
 @media (max-width: 768px) {
   .header-content {
-    padding: 10px 0;
+    padding: 10px 8px;
     flex-wrap: wrap;
     gap: 8px;
   }
 
   .menu-toggle {
     display: block;
+    margin-right: 8px;     /* afasta da borda direita */
+
   }
 
   /* MENU MOBILE: aparece abaixo da logo e empurra o conteúdo */
@@ -667,12 +669,12 @@ img {
   }
 
   .hero {
-    padding: 60px 0 40px;
+    padding: 80px 0 40px;
+    background-position: center 25%; /* desce um pouco a imagem no mobile */
   }
 
   .hero::before {
-    background: rgba(5, 10, 25, 0.78);
-  }
+    background: rgba(5, 10, 25, 0.82); /* um pouco mais escuro para o texto sobressair */
 
   .hero h1 {
     font-size: 26px;
